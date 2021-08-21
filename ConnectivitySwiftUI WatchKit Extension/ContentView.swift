@@ -20,9 +20,7 @@ struct ContentView: View {
                 Text(self.model.messageText)
                 Text("Scroll: \(Int(scrollAmonut))").focusable(true).digitalCrownRotation($scrollAmonut).padding()
                 
-               // Spacer()
-                
-                LabeledGauge(current:scrollAmonut)
+                LabeledGauge(current: $scrollAmonut)
             
                 
             }
