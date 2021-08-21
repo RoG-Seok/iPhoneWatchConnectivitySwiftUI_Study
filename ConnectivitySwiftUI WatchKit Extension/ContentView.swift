@@ -10,13 +10,23 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var model = ViewModelWatch()
-    // 디지털크라운 회전 수치 
-    @State var scrollAmonut = 0.0
-    
+    // 디지털크라운 회전 수치
+    @State var scrollAmonut = 0.0 //current
+   
     var body: some View {
-        VStack{
-            Text(self.model.messageText)
-            Text("Scroll: \(scrollAmonut)").focusable(true).digitalCrownRotation($scrollAmonut)
+        ZStack{
+            
+            VStack{
+                Text(self.model.messageText)
+                Text("Scroll: \(Int(scrollAmonut))").focusable(true).digitalCrownRotation($scrollAmonut).padding()
+                
+               // Spacer()
+                
+                LabeledGauge(current:scrollAmonut)
+            
+                
+            }
+            
             
         }
         

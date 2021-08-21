@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4552C18026D1547B00A45065 /* LabeledGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4552C17F26D1547B00A45065 /* LabeledGauge.swift */; };
 		5CED089024BB4FF70070DC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED088F24BB4FF70070DC95 /* AppDelegate.swift */; };
 		5CED089224BB4FF70070DC95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED089124BB4FF70070DC95 /* SceneDelegate.swift */; };
 		5CED089424BB4FF70070DC95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED089324BB4FF70070DC95 /* ContentView.swift */; };
@@ -87,6 +88,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4552C17F26D1547B00A45065 /* LabeledGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledGauge.swift; sourceTree = "<group>"; };
 		5CED088C24BB4FF70070DC95 /* ConnectivitySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectivitySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CED088F24BB4FF70070DC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CED089124BB4FF70070DC95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				5CED08DA24BB4FFC0070DC95 /* PushNotificationPayload.apns */,
 				5CED08D624BB4FFC0070DC95 /* Preview Content */,
 				5CED08F224BB60FE0070DC95 /* ViewModelWatch.swift */,
+				4552C17F26D1547B00A45065 /* LabeledGauge.swift */,
 			);
 			path = "ConnectivitySwiftUI WatchKit Extension";
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 			files = (
 				5CED08CD24BB4FFB0070DC95 /* HostingController.swift in Sources */,
 				5CED08CB24BB4FFB0070DC95 /* ContentView.swift in Sources */,
+				4552C18026D1547B00A45065 /* LabeledGauge.swift in Sources */,
 				5CED08D124BB4FFB0070DC95 /* NotificationController.swift in Sources */,
 				5CED08CF24BB4FFB0070DC95 /* ExtensionDelegate.swift in Sources */,
 				5CED08F324BB60FE0070DC95 /* ViewModelWatch.swift in Sources */,
