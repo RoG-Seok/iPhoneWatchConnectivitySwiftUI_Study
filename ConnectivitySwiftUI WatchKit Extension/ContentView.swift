@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var model = ViewModelWatch()
+    // 디지털크라운 회전 수치 
     @State var scrollAmonut = 0.0
     
     var body: some View {
