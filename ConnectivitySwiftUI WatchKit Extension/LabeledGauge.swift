@@ -11,16 +11,22 @@ import SwiftUI
 
 struct LabeledGauge: View {
     @Binding var current :Double
-    @State private var minValue = 0.0
-    @State private var maxValue = 170.0
+    var minValue = 0.0
+    var maxValue = 170.0
     let gradient = Gradient(colors: [.green, .yellow, .orange, .red])
 
     var body: some View {
         if #available(watchOSApplicationExtension 7.0, *) {
             Gauge(value: current , in: minValue...maxValue) {
-                Text("BPM")
+                //Text("BPM")
             } currentValueLabel: {
-                Text("\(Int(current))")
+                if (current >= minValue && current <= maxValue){
+                    Text("\(Int(current))")
+                }else if (current < minValue){
+                    Text("\(Int(minValue))")
+                }else{
+                    Text("\(Int(maxValue))")
+                }
             } minimumValueLabel: {
                 Text("\(Int(minValue))")
             } maximumValueLabel: {
@@ -36,11 +42,3 @@ struct LabeledGauge: View {
 }
 
 
-struct LabeledGauge_Previews: PreviewProvider {
-    @ObservedObject static  var model = ViewModelWatch()
-    // 디지털크라운 회전 수치
-    @State static var scrollAmonut = 0.0 //current
-    static var previews: some View {
-        LabeledGauge(current: $scrollAmonut)
-    }
-}

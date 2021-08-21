@@ -17,14 +17,12 @@ struct ContentView: View {
         ZStack{
             
             VStack{
-                Text(self.model.messageText)
+                Text("iPhone: \(self.model.messageText)")
                 Text("Scroll: \(Int(scrollAmonut))").focusable(true).digitalCrownRotation($scrollAmonut).padding()
                 
-                LabeledGauge(current: $scrollAmonut)
-            
+                LabeledGauge(current: $scrollAmonut, minValue: 0.0,  maxValue: 5000.0)
                 
             }
-            
             
         }
         
