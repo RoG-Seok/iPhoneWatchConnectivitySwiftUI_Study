@@ -17,21 +17,25 @@ struct LabeledGauge: View {
 
     var body: some View {
         if #available(watchOSApplicationExtension 7.0, *) {
-            Gauge(value: current , in: minValue...maxValue) {
-                //Text("BPM")
-            } currentValueLabel: {
-                if (current >= minValue && current <= maxValue){
-                    Text("\(Int(current))")
-                }else if (current < minValue){
+            let dotvalue = current * 0.25
+            
+        
+            
+            Gauge(value: dotvalue , in: minValue...maxValue) {
+                //Text("password")
+            }currentValueLabel: {
+                if (dotvalue >= minValue && dotvalue <= maxValue){
+                    Text("\(Int(dotvalue))")
+                }else if (dotvalue < minValue){
                     Text("\(Int(minValue))")
                 }else{
                     Text("\(Int(maxValue))")
                 }
-            } minimumValueLabel: {
+            } /*minimumValueLabel: {
                 Text("\(Int(minValue))")
             } maximumValueLabel: {
                 Text("\(Int(maxValue))")
-            }
+            }*/
             .gaugeStyle(CircularGaugeStyle(tint: gradient))
         } else {
             // Fallback on earlier versions

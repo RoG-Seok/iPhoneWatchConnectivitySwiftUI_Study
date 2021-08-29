@@ -12,15 +12,27 @@ struct ContentView: View {
     @ObservedObject var model = ViewModelWatch()
     // 디지털크라운 회전 수치
     @State var scrollAmonut = 0.0 //current
+    var GaugeminValue = 0.0
+    var GaugemaxValue = 100.0
+    
+    
+    
    
     var body: some View {
+        
         ZStack{
             
             VStack{
+                
                 Text("iPhone: \(self.model.messageText)")
                 Text("Scroll: \(Int(scrollAmonut))").focusable(true).digitalCrownRotation($scrollAmonut).padding()
                 
-                LabeledGauge(current: $scrollAmonut, minValue: 0.0,  maxValue: 5000.0)
+              
+                
+                Image("wheel")
+                             .resizable()
+                             .frame(width: 400.0, height: 400.0)
+                             .rotationEffect(.degrees(scrollAmonut))
                 
             }
             

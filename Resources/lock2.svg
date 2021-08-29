@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 1024 1024">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="PencilOnly" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="OutlineMode" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="doHistoryDisabled" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="TimeLapseWatermarkDisabled" value="0"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="IsolateActiveLayer" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+</metadata>
+<defs>
+<linearGradient y1="1059.97" id="LinearGradient" x1="-21.5424" y2="-2.2217" x2="1020.12" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#19460a" offset="0"/>
+<stop stop-color="#65ca17" offset="1"/>
+</linearGradient>
+<linearGradient y1="76.6942" id="LinearGradient_2" x1="504.52" y2="76.6942" x2="519.48" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#b3b3b3" offset="0.285714"/>
+<stop stop-color="#ffffff" offset="0.903361"/>
+</linearGradient>
+<linearGradient y1="512" id="LinearGradient_3" x1="886.251" y2="512" x2="1001.37" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#b3b3b3" offset="0.285714"/>
+<stop stop-color="#ffffff" offset="0.903361"/>
+</linearGradient>
+<linearGradient y1="957.013" id="LinearGradient_4" x1="504.52" y2="957.013" x2="519.48" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#b3b3b3" offset="0.285714"/>
+<stop stop-color="#ffffff" offset="0.903361"/>
+</linearGradient>
+<linearGradient y1="512" id="LinearGradient_5" x1="26.6948" y2="512" x2="141.814" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#b3b3b3" offset="0.285714"/>
+<stop stop-color="#ffffff" offset="0.903361"/>
+</linearGradient>
+<linearGradient y1="217.406" id="LinearGradient_6" x1="792.297" y2="217.406" x2="880.982" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#b3b3b3" offset="0.285714"/>
+<stop stop-color="#ffffff" offset="0.903361"/>
+</linearGradient>
+<linearGradient y1="829.91" id="LinearGradient_7" x1="766.872" y2="829.91" x2="850.188" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#b3b3b3" offset="0.285714"/>
+<stop stop-color="#ffffff" offset="0.903361"/>
+</linearGradient>
+<linearGradient y1="813.309" id="LinearGradient_8" x1="144.331" y2="813.309" x2="233.016" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#b3b3b3" offset="0.285714"/>
+<stop stop-color="#ffffff" offset="0.903361"/>
+</linearGradient>
+<linearGradient y1="197.226" id="LinearGradient_9" x1="185.022" y2="197.226" x2="268.338" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#b3b3b3" offset="0.285714"/>
+<stop stop-color="#ffffff" offset="0.903361"/>
+</linearGradient>
+<radialGradient cx="512" r="292.795" id="RadialGradient" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.24225 0 0 1.24225 -124.03 -124.03)" cy="512">
+<stop stop-color="#25350a" offset="0.634454"/>
+<stop stop-color="#256411" offset="1"/>
+</radialGradient>
+<radialGradient cx="512" r="257.108" id="RadialGradient_2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.24225 0 0 1.24225 -124.03 -124.03)" cy="512">
+<stop stop-color="#000000" offset="0.87395"/>
+<stop stop-color="#ffffff" offset="0.936975"/>
+<stop stop-color="#7f7f7f" offset="1"/>
+</radialGradient>
+<linearGradient y1="588.251" id="LinearGradient_10" x1="489.936" y2="302.26" x2="501.016" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.395464 0 0 1.14252 314.07 -105.065)">
+<stop stop-color="#1c5d0a" offset="0"/>
+<stop stop-color="#ffffff" offset="1"/>
+</linearGradient>
+</defs>
+<g id="레이어 1" vectornator:layerName="레이어 1">
+<path d="M512-0.245258L512-0.245258C794.905-0.245258+1024.25+229.095+1024.25+512L1024.25+512C1024.25+794.905+794.905+1024.25+512+1024.25L512+1024.25C229.095+1024.25-0.245258+794.905-0.245258+512L-0.245258+512C-0.245258+229.095+229.095-0.245258+512-0.245258Z" opacity="1" fill="url(#LinearGradient)"/>
+</g>
+<g id="레이어 2" vectornator:layerName="레이어 2">
+<g opacity="1">
+<path d="M512+19.1334L512+19.1334C507.869+19.1334+504.52+22.4821+504.52+26.613L504.52+126.775C504.52+130.906+507.869+134.255+512+134.255L512+134.255C516.131+134.255+519.48+130.906+519.48+126.775L519.48+26.613C519.48+22.4821+516.131+19.1334+512+19.1334Z" opacity="1" fill="url(#LinearGradient_2)"/>
+<path d="M1001.37+511.565L1001.37+511.565C1001.34+507.434+997.965+504.111+993.834+504.142L893.674+504.899C889.543+504.93+886.22+508.304+886.251+512.435L886.251+512.435C886.282+516.566+889.656+519.889+893.787+519.858L993.947+519.101C998.078+519.07+1001.4+515.696+1001.37+511.565Z" opacity="1" fill="url(#LinearGradient_3)"/>
+<path d="M512+899.452L512+899.452C507.869+899.452+504.52+902.801+504.52+906.932L504.52+1007.09C504.52+1011.22+507.869+1014.57+512+1014.57L512+1014.57C516.131+1014.57+519.48+1011.22+519.48+1007.09L519.48+906.932C519.48+902.801+516.131+899.452+512+899.452Z" opacity="1" fill="url(#LinearGradient_4)"/>
+<path d="M141.813+511.565L141.813+511.565C141.782+507.434+138.408+504.111+134.278+504.142L34.118+504.899C29.9872+504.93+26.6639+508.304+26.6951+512.435L26.6951+512.435C26.7263+516.566+30.1002+519.889+34.231+519.858L134.391+519.101C138.521+519.07+141.845+515.696+141.813+511.565Z" opacity="1" fill="url(#LinearGradient_5)"/>
+<path d="M879.008+178.442L879.008+178.442C876.211+175.401+871.48+175.203+868.439+177.999L794.714+245.801C791.673+248.597+791.475+253.329+794.271+256.37L794.271+256.37C797.068+259.41+801.799+259.608+804.84+256.812L878.565+189.01C881.606+186.214+881.804+181.482+879.008+178.442Z" opacity="1" fill="url(#LinearGradient_6)"/>
+<path d="M847.812+871.982L847.812+871.982C850.832+869.163+850.994+864.43+848.175+861.411L779.818+788.2C776.999+785.18+772.266+785.018+769.247+787.837L769.247+787.837C766.227+790.656+766.065+795.389+768.884+798.409L837.241+871.62C840.06+874.639+844.793+874.802+847.812+871.982Z" opacity="1" fill="url(#LinearGradient_7)"/>
+<path d="M231.042+774.345L231.042+774.345C228.246+771.305+223.514+771.107+220.473+773.903L146.748+841.705C143.707+844.501+143.509+849.233+146.306+852.273L146.306+852.273C149.102+855.314+153.834+855.512+156.874+852.716L230.6+784.914C233.64+782.118+233.838+777.386+231.042+774.345Z" opacity="1" fill="url(#LinearGradient_8)"/>
+<path d="M265.963+239.299L265.963+239.299C268.982+236.48+269.145+231.747+266.326+228.727L197.969+155.516C195.15+152.497+190.417+152.335+187.397+155.154L187.397+155.154C184.378+157.973+184.216+162.706+187.035+165.725L255.392+238.937C258.211+241.956+262.944+242.118+265.963+239.299Z" opacity="1" fill="url(#LinearGradient_9)"/>
+</g>
+</g>
+<g id="레이어 3" vectornator:layerName="레이어 3">
+<path d="M512+148.277L512+148.277C712.879+148.277+875.723+311.121+875.723+512L875.723+512C875.723+712.879+712.879+875.723+512+875.723L512+875.723C311.121+875.723+148.277+712.879+148.277+512L148.277+512C148.277+311.121+311.121+148.277+512+148.277Z" opacity="1" fill="url(#RadialGradient)"/>
+</g>
+<g id="레이어 5" vectornator:layerName="레이어 5" visibility="hidden">
+<path d="M512+192.609L512+192.609C688.395+192.609+831.391+335.605+831.391+512L831.391+512C831.391+688.395+688.395+831.391+512+831.391L512+831.391C335.605+831.391+192.609+688.395+192.609+512L192.609+512C192.609+335.605+335.605+192.609+512+192.609Z" opacity="1" fill="url(#RadialGradient_2)"/>
+<path d="M502.841+237.522L518.337+237.522L518.337+391.29L502.841+391.29L502.841+237.522Z" opacity="1" fill="url(#LinearGradient_10)"/>
+</g>
+</svg>
