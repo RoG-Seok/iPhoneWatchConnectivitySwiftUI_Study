@@ -19,20 +19,24 @@ struct ContentView: View {
     
    
     var body: some View {
-        
+        VStack{
+            
+            HStack{
+                Text("🔒")
+                Text("🔒")
+                Text("🔒")
+            }
+           // Text("iPhone: \(self.model.messageText)")
+            Text("Scroll: \(Int(scrollAmonut) % 360)").focusable(true).digitalCrownRotation($scrollAmonut).font(.caption)
+            
         ZStack{
             
-            VStack{
-                
-                Text("iPhone: \(self.model.messageText)")
-                Text("Scroll: \(Int(scrollAmonut))").focusable(true).digitalCrownRotation($scrollAmonut).padding()
-                
-              
-                
-                Image("wheel")
+            Image("lock_bg").resizable().frame(width: 120, height: 120)
+            
+                Image("lock_handle")
                              .resizable()
-                             .frame(width: 400.0, height: 400.0)
-                             .rotationEffect(.degrees(scrollAmonut))
+                             .frame(width: 120, height: 120)
+                    .rotationEffect(.degrees(scrollAmonut * 0.25))
                 
             }
             
