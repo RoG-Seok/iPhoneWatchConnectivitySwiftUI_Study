@@ -43,6 +43,14 @@ struct LabeledGauge: View {
         //.gaugeStyle(.circular)
        // .gaugeStyle(.Body)
     }
+    struct LabeledGauge_Previews: PreviewProvider {
+        @ObservedObject static  var model = ViewModelWatch()
+        // 디지털크라운 회전 수치
+        @State static var scrollAmonut = 0.0 //current
+        static var previews: some View {
+            LabeledGauge(current: $scrollAmonut)
+        }
+    }
 }
 
 

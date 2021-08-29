@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		450A3C0D26DB59C400EAE2D7 /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450A3C0C26DB59C400EAE2D7 /* Resources.xcassets */; };
+		0A48C5BF26DB63E0007F71C9 /* SafeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A48C5BE26DB63E0007F71C9 /* SafeGameView.swift */; };
 		4552C18026D1547B00A45065 /* LabeledGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4552C17F26D1547B00A45065 /* LabeledGauge.swift */; };
 		5CED089024BB4FF70070DC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED088F24BB4FF70070DC95 /* AppDelegate.swift */; };
 		5CED089224BB4FF70070DC95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED089124BB4FF70070DC95 /* SceneDelegate.swift */; };
@@ -89,7 +89,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		450A3C0C26DB59C400EAE2D7 /* Resources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources.xcassets; sourceTree = "<group>"; };
+		0A48C5BE26DB63E0007F71C9 /* SafeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeGameView.swift; sourceTree = "<group>"; };
 		4552C17F26D1547B00A45065 /* LabeledGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledGauge.swift; sourceTree = "<group>"; };
 		5CED088C24BB4FF70070DC95 /* ConnectivitySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectivitySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CED088F24BB4FF70070DC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,10 +155,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A48C5BD26DB63C6007F71C9 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				0A48C5BE26DB63E0007F71C9 /* SafeGameView.swift */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
 		5CED088324BB4FF70070DC95 = {
 			isa = PBXGroup;
 			children = (
-				450A3C0C26DB59C400EAE2D7 /* Resources.xcassets */,
 				5CED08EE24BB56310070DC95 /* ViewModelPhone.swift */,
 				5CED088E24BB4FF70070DC95 /* ConnectivitySwiftUI */,
 				5CED08A524BB4FFA0070DC95 /* ConnectivitySwiftUITests */,
@@ -234,6 +241,7 @@
 		5CED08C924BB4FFB0070DC95 /* ConnectivitySwiftUI WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0A48C5BD26DB63C6007F71C9 /* GameView */,
 				5CED08CA24BB4FFB0070DC95 /* ContentView.swift */,
 				5CED08CC24BB4FFB0070DC95 /* HostingController.swift */,
 				5CED08CE24BB4FFB0070DC95 /* ExtensionDelegate.swift */,
@@ -406,7 +414,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CED089C24BB4FFA0070DC95 /* LaunchScreen.storyboard in Resources */,
-				450A3C0D26DB59C400EAE2D7 /* Resources.xcassets in Resources */,
 				5CED089924BB4FFA0070DC95 /* Preview Assets.xcassets in Resources */,
 				5CED089624BB4FFA0070DC95 /* Assets.xcassets in Resources */,
 			);
@@ -479,6 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CED08CD24BB4FFB0070DC95 /* HostingController.swift in Sources */,
+				0A48C5BF26DB63E0007F71C9 /* SafeGameView.swift in Sources */,
 				5CED08CB24BB4FFB0070DC95 /* ContentView.swift in Sources */,
 				4552C18026D1547B00A45065 /* LabeledGauge.swift in Sources */,
 				5CED08D124BB4FFB0070DC95 /* NotificationController.swift in Sources */,

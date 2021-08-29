@@ -28,19 +28,8 @@ struct ContentView: View {
             }
            // Text("iPhone: \(self.model.messageText)")
             Text("Scroll: \(Int(scrollAmonut) % 360)").focusable(true).digitalCrownRotation($scrollAmonut).font(.caption)
-            
-        ZStack{
-            
-            Image("lock_bg").resizable().frame(width: 120, height: 120)
-            
-                Image("lock_handle")
-                             .resizable()
-                             .frame(width: 120, height: 120)
-                    .rotationEffect(.degrees(scrollAmonut))
-                
-            }
-            
-        }
+            SafeGameView(current: $scrollAmonut)
+        
         
     }
 }
@@ -49,4 +38,5 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
 }
