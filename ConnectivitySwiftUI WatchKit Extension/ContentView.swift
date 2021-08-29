@@ -36,7 +36,7 @@ struct ContentView: View {
                 Image("lock_handle")
                              .resizable()
                              .frame(width: 120, height: 120)
-                    .rotationEffect(.degrees(scrollAmonut * 0.25))
+                    .rotationEffect(.degrees(scrollAmonut))
                 
             }
             
